@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class EcommerceSearch {
+    public static void main(String[] args) {
+        List<String> products = Arrays.asList(
+                "Laptop",
+                "Mobile",
+                "Headphones",
+                "Smart Watch");
+
+        String searchItem = "Mobile";
+
+        if (products.contains(searchItem))
+            System.out.println(searchItem + " Found");
+        else
+            System.out.println(searchItem + " Not Found");
+    }
+}
